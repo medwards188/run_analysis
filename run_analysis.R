@@ -56,7 +56,7 @@ rm (featureData, subject, activity) #free some memory space
 ## Use descriptive activity names to name the activities in the data set
 ## Read the labels from file
 actLabels <- read.table(unz(data,"UCI HAR Dataset/activity_labels.txt"),header=FALSE,stringsAsFactors=FALSE)
-## Apply the labels to the data
+## Appropriately label the data set with descriptive variable names. 
 featureXX$Activity <- factor(featureXX$Activity,levels=actLabels[,1],labels=actLabels[,2])
 
 ## Create a second tidy data set with the average of each variable for each activity and each subject
