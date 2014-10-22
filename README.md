@@ -1,3 +1,6 @@
+This document explains how the script "run_analysis.R" works.
+The code book "CodeBook.MD" describes the variables, data, and any transformations or work that you performed to clean up the data.
+
 ## Set working directory
 setwd("~/Documents/Data Scientist Certification/Course 3/run_analysis")
 
